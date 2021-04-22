@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+// import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [toggled, toggle] = useState(false)
@@ -27,7 +28,6 @@ const Header = () => {
       {toggled && (
         <div id="menu" className="block">
           <a
-            id="menu"
             className="flex items-center px-3 py-2 border rounded text-gray-700 border-gray-700 hover:text-white hover:border-white"
             href="https://www.google.com/"
           >
@@ -36,7 +36,7 @@ const Header = () => {
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <title>menu</title>
+              <title>Menu</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
           </a>
@@ -45,5 +45,9 @@ const Header = () => {
     </nav>
   )
 }
+
+
+
+
 
 export default React.memo(Header)
