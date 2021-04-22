@@ -15,8 +15,8 @@ const Profile = () => {
           Profile
         </div>
         <div className="flex flex-col items-center">
-            <Link to="/dashboard">Go to Root</Link>
-            <Link to="/dashboard/main">Go to Main</Link>
+            <Link to="/dashboard">Go To Root</Link>
+            <Link to="/dashboard/main">Go To Main</Link>
           </div>
           <div id="username" className="flex justify-center border rounded font-semibold mb-2 p-2">{user}</div>
         </div>

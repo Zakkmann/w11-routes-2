@@ -14,8 +14,8 @@ const Dashboard = () => {
           Dashboard
           </div>
           <div className="flex flex-col items-center">
-            <Link to="/dashboard/profile/a523cc26-69aa-4ca0-ba95-7bb54a86f9b0">Go to Profile</Link>
-            <Link to="/dashboard/main">Go to Main</Link>
+            <Link to="/dashboard/profile/a523cc26-69aa-4ca0-ba95-7bb54a86f9b0">Go To Profile</Link>
+            <Link to="/dashboard/main">Go To Root</Link>
             <Link to="/">Go to Shit Tin</Link>
           </div>
         </div>

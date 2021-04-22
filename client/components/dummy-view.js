@@ -15,7 +15,7 @@ const Dummy = () => {
            Welcome to the shit tin
           </div>
           <div className="flex flex-col items-center">    
-          <Link to="/dashboard/">Go to Dashboard</Link>
+          <Link to="/dashboard/">Go To Root</Link>
           </div>
         </div>
       </div>
