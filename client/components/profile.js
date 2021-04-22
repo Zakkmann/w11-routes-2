@@ -18,7 +18,9 @@ const Profile = () => {
             <Link to="/dashboard">Go To Root</Link>
             <Link to="/dashboard/main">Go To Main</Link>
           </div>
-          <div id="username" className="flex justify-center border rounded font-semibold mb-2 p-2">{user}</div>
+          <div id="username" className="flex justify-center border rounded font-semibold mb-2 p-2">
+            {user}
+          </div>
         </div>
       </div>
     </div>
